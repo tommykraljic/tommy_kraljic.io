@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Tomislav Kraljic</title>
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron">
+      <div class="jumbotron-text">
+        <img src="./assets/Picture.jpg" class="profile-image" />
+        <h1>Tomislav Kraljic</h1>
+        <br />
+        <p>Software Engineer. Army Veteran. Polyglot.</p>
+        <br />
+      </div>
+      <div class="jumbotron-social">
+        <ul class="ul-social">
+          <li class="li-social-links">
+            <a class="social" href="https://github.com/TomislavKraljic" target="_blank"><i
+                class="fab fa-github"></i></a>
+          </li>
+          <li class="li-social-links">
+            <a class="social" href="https://www.linkedin.com/in/tomislav-kraljic-45967b194/" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+          </li>
+
+          <li class="li-social-links">
+            <a class="social" href="./assets/Tomislav_Kraljic_Resume.pdf" target="_blank"><i
+                class="fa fa-file-pdf"></i></a>
+          </li>
+
+          <li class="li-social-links">
+            <a class="social" href="https://dev.to/tomislavkraljic" target="_blank"><i class="fab fa-dev"></i></a>
+          </li>
+          <br />
+          <br />
+        </ul>
+      </div>
+    </div>
+
+    <div class="row white box-shadow">
+      <div class="side-content"></div>
+      <div class="main-content">
+        <div class="content-header">
+          <a class="anchor" name="about"></a>
+          <h2>About</h2>
+        </div>
+        <div class="content-body">
+          <p>
+            Hi! My name is Tomislav Kraljic. I am a Software Engineer based
+            in Indianapolis, Indiana. I truly believe in bringing value and a positive impact to people
+            and this world.
+          </p>
+
+          <p>
+            From June to September of 2020, I attended a Full Stack Web
+            Development Boot Camp. Here I developed skills in HTML5, CSS3,
+            Bootstrap, JavaScript, TypeScript, React, Express, Node,
+            PostgreSQL. This taught me how to build fully scalable and mobile
+            responsive web applications.
+          </p>
+
+          <p>
+            From September to November of 2020, I attended a Software
+            Development Boot Camp. Here I developed skills in C#, .NET and
+            learned how to build fully-scalable back-end applications.
+            I also learned how to use various different architectures
+            and frameworks such as Entity, Web API and .NET Core.
+          </p>
+
+        </div>
+      </div>
+      <div class="side-content"></div>
+    </div>
+
+    <div class="row white box-shadow">
+      <div class="side-content-sm"></div>
+      <div class="main-content-lg">
+        <div class="content-header">
+          <a class="anchor" name="projects"></a>
+          <h2>Projects</h2>
+        </div>
+        <div class="content-body-projects">
+          <!-- CARD #1 -->
+          <div class="project-card">
+            <div class="project-content">
+              <h4>Linux Heap Memory Manager</h4>
+              <p>
+                This is a Heap Memory Manager for Unix-based Operating Systems. This library enables you 
+                to allocate and free memory, catch memory leaks, removes internal and external fragmentation problems, 
+                and shows memory statistics for applications currently in use.
+              </p>
+              <a href="https://github.com/TomislavKraljic/Heap_Memory_Manager" target="_blank">Source Code</a>
+              </div>
+              <br />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-content">
+              <h4>Maven Pipeline</h4>
+              <p>
+                This is a Java application that uses various DevOps tools and technologies to replicate a 
+                CI/CD pipeline. This application uses Docker, Groovy, Jenkins, Maven, Git, JUnit, Nexus and DigitalOcean.
+                When the pipeline is triggered, the master branch will be checked out, tested, built into a JAR file, packaged into
+                a docker-image and deployed to a private repository of Nexus on a remote-server. 
+              </p>
+              <a href="https://github.com/TomislavKraljic/java-maven-application" target="_blank">Source Code</a>
+              </div>
+              <br />
+            </div>
+
+          <div class="project-card">
+            <div class="project-content">
+              <h4>Employee Management System API</h4>
+              <p>
+                This is a Web API built in C# and .NET Core that manages sensitive employee and company information. This
+                application utilizes Swagger UI for in-browser testing and documentation. This allows users to 
+                retrieve, update, delete, archive and create employee and company information.
+              </p>
+              <a href="https://github.com/TomislavKraljic/EmployeeManagementSystemWebAPI" target="_blank">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="side-content-sm"></div>
+    </div>
+
+    <div class="row white box-shadow">
+      <div class="side-content-sm"></div>
+      <div class="main-content-lg">
+        <div class="content-header">
+          <a class="anchor" name="blog"></a>
+          <h2>Recent Blog Articles</h2>
+        </div>
+
+        <div class="content-body-projects">
+          <div class="project-card">
+            <div class="project-content">
+              <h4>Portability Bug in Windows Operating System</h4>
+              <p>In this article, I go over how I discovered a portability bug in the Windows Operating System
+                 using a shell in Emacs. Also, I explain the workaround for this bug.
+              </p>
+              <a href="https://dev.to/tomislavkraljic/portability-bug-in-window-os-for-c-programming-3pje" target="_blank">View Article</a>
+              <br/>
+              </div>
+              </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h4>Configuring and Running Jenkins in a Remote Server with Docker</h4>
+              <p>
+                In this article, I will go over how you can start Jenkins up on
+                a remote server using the official image from Docker and configure it properly.
+              </p>
+              <a href="https://dev.to/tomislavkraljic/configuring-and-running-jenkins-on-a-remote-server-with-docker-1cdl" target="_blank">View Article</a>
+              <br />
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-content">
+              <h4>How IP Addresses Work</h4>
+              <p>
+                In this article, I will go over what IP addresses are, types of addresses,
+                class-full vs class-less addresses, classes of networks, subnets and CIDR 
+                (Classless Inter-Domain Routing) notation.
+              </p>
+              <a href="https://dev.to/tomislavkraljic/how-ip-addresses-work-jl2" target="_blank">View Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="side-content-sm"></div>
+    </div>
+
+    <div class="row white box-shadow">
+      <div class="side-content"></div>
+      <div class="main-content">
+        <div class="content-header">
+          <a class="anchor" name="education"></a>
+          <br />
+          <h2>Education</h2>
+        </div>
+        <div class="content-body">
+          <div class="card">
+            <div class="card-header">
+              <h4>
+                Eleven Fifty Academy - Software Development Boot Camp
+              </h4>
+            </div>
+            <div class="card-content">
+              <p class="education">
+                This was a 12 week immersive program that taught me the skills
+                needed to build fully scalable back-end applications using C# and the
+                .NET Framework. I also gained in-depth knowledge in MS-SQL,
+                .NET Web API, .NET MVC, Entity Framework, Unit Testing and LINQ.
+              </p>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <div class="card-header">
+              <h4>
+                Eleven Fifty Academy - Full Stack Web Development Boot Camp
+              </h4>
+            </div>
+            <div class="card-content">
+              <p class="education">
+                This was a rigorous 12 week immersive program that taught me
+                the skills needed to build dynamic web applications and gain
+                proficiency in the theory and application of web development.
+                I developed skills in HTML, CSS, Javascript, Typescript,
+                React, Node, Express, PostgreSQL, Git and Agile through
+                real-world projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="side-content"></div>
+    </div>
+
+    <div class="row white box-shadow">
+      <div class="side-content"></div>
+      <div class="main-content">
+        <div class="content-header">
+          <a class="anchor" name="contact"></a>
+          <h2 class="white-text">Contact Me</h2>
+        </div>
+        <div class="contact content-body">
+          <form method="POST" action="https://formspree.io/xoqkpejo">
+            <input type="hidden" name="_subject" value="Contact request from personal website" />
+            <input type="email" name="_replyto" placeholder="Enter Email..." required />
+            <textarea name="message" placeholder="Enter Your message..." required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="side-content"></div>
+    </div>
+  </div>
+</body>
+
+</html>
